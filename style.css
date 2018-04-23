@@ -1,0 +1,98 @@
+.mode-select {
+   
+    width: 25%;
+    height: 18%;
+    
+}
+
+#game {
+	border-radius: 12px;
+}
+
+#arcade {
+	font-size: 50px;
+}
+
+.nav-button:hover{
+	background-color: #cccccc;
+}
+
+.nav-button {
+	position: absolute;
+	border-radius: 18px;
+    font-size: 40px;
+	transition: background-color .2s;
+	opacity: .8;
+}
+#name-input {
+	position: absolute;
+    top: 84%;
+    font-size: 22px;
+    width: 24%;
+    left: 65%;
+}
+#score-button, #score-back {
+	width: 53%;
+	left: 10%;
+	top: 82%;
+}
+
+.score-table {
+	position: absolute;
+	font-family: arial;
+	font-size: 12px;
+	top: 15%;
+	left: 8%;
+	background: rgba(128, 128, 128, .8);
+	text-align: center;
+	width: 21%;
+    max-width: 21%;
+}
+
+.score-name-inner {
+	max-width: 80px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.own-score {
+	background-color: rgba(150, 150, 128, .8);
+}
+
+#score-title {
+	font-size: 42px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: gray;
+	font-family: arial;
+	top: 5%;
+}
+
+#main {
+	width: 540px;
+	height: 440px;
+	position: relative;
+}
+
+#logo {
+	background: url(snakeout-logo.png);
+	width: 100%;
+	position: absolute;
+	top: 8%;
+	left: 0;
+	height: 25%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#mute {
+	position: absolute;
+    right: .3%;
+    top: .3%;
+    width: 20px;
+    padding: 0;
+    border-radius: 100px;
+    border-color: gray;
+}
